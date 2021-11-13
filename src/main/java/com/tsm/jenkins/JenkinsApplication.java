@@ -18,6 +18,6 @@ public class JenkinsApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		log.log(Level.INFO,":: Application started successfully ::");
-		System.out.println(":: Application started successfully ::");
+		log.log(Level.INFO,":: Adding second log to test automatic build in jenkins as soon as code is committed to master ::");
 	}
 }
