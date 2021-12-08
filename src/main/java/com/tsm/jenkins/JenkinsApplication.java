@@ -19,5 +19,6 @@ public class JenkinsApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		log.log(Level.INFO,":: Application started successfully ::");
 		log.log(Level.INFO,":: Adding second log to test automatic build in jenkins as soon as code is committed to master ::");
+		log.log(Level.INFO,":: Adding third log to test automatic build in jenkins as soon as code is committed to master ::");
 	}
 }
